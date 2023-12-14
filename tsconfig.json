@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      /* Базовые опции */
+      "target": "es5",                                 
+      "module": "commonjs",                          
+      "lib": ["dom", "es6", "dom.iterable", "scripthost"], 
+      "outDir": "./dist",                             
+      "rootDir": "./src",                             
+      "removeComments": true,                         
+      "strict": true,                                 
+  
+      /* Опции модулей */
+      "esModuleInterop": true,                       
+      "resolveJsonModule": true,                     
+      "sourceMap": true,                             
+  
+      /* Дополнительные проверки */
+      "noImplicitAny": true,                          
+      "strictNullChecks": true,                       
+      "strictFunctionTypes": true,                    
+      "strictPropertyInitialization": true,            
+      "noImplicitThis": true,                         
+  
+      /* Опции вывода */
+      "newLine": "LF",                              
+      "noEmit": false                                
+    },
+    "include": [
+      "src/**/*"                                     
+    ],
+    "exclude": [
+      "node_modules",                                 
+      "**/*.spec.ts"                                  
+    ]
+  }
+  
